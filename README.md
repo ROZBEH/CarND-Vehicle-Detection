@@ -66,7 +66,10 @@ II. Implementing a sliding-window technique and using the trained classifier to 
 III. Running our pipeline on a video stream. 
 
 * The pipeline for the video is pretty much the same as the images. Except we need to keep track of the previous detections. Because this way we can make sure whether new boxes that we detected are along previous frames or false positives and also smooth the bounding boxes in sequences of video frames.
+
 * Some threshold(for example 13) will be considered for the number of previous bounding boxes that we want to keep track of.
+
+* There is one difference compared to image case, for video frames we want to make sure that bounding boxes appear at least in the previous 13 frames as a result our threshold for the number of bounding boxes(regarding false positive reduction) will increase from 2 to 6 because unlike images cases, for video there will be lots of bounding boxes and its safe to increase the threshold by this value.
 
 </br>
 
