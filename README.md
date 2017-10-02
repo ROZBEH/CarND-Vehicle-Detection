@@ -49,7 +49,14 @@ II. Implementing a sliding-window technique and using the trained classifier to 
 
 <p align="center"><img src="examples/limits_.png" width = "350" alt="Combined Image" /> </p>
 
-*
+* After identifying all the bounding boxes, its time to remove false positives. In order to remove them, a heat map of the bounding boxes are generated and ones that have overlap with eachother are categorized together and put together as the same box. Bounding boxes that occure less than some threshold number of times are removes. This way a lot false positives will be rejected.
+
+* Following figure show some the detection and corresponding bounding boxes. Heatmap of each of them are shown next to them.
+
+<p align="center"><img src="examples/heatbox1.png" width = "350" alt="Combined Image" /> </p>
+
+<p align="center"><img src="examples/heatbox2.png" width = "350" alt="Combined Image" /> </p>
+
 
 </br>
 
