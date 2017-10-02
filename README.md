@@ -39,7 +39,15 @@ I. Perform a Histogram of Oriented Gradients (HOG) feature extraction on a label
 
 <br>
 
-II. 
+II. Implementing a sliding-window technique and using the trained classifier to search for vehicles in images.
+
+* Hog Sub-sampling Window Search technique was using for searching windows in the images.
+
+* The top middle half of the images frames doesn't have any car to look for. As a result, we limit the search space into the bottom half of images. The search space then will be splited into sub-spaces in order to account for the size of the vehicles that we are looking for. Because vehicles in the nearer distance appear to be larger as a result we increase the window size that we are looking for by tweaking the variable `scale`. On the other hand, vehicles in the further distance tend to appear in the middle region of the pixels.
+
+*
+
+*
 
 </br>
 
