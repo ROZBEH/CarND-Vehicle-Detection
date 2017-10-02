@@ -47,6 +47,8 @@ II. Implementing a sliding-window technique and using the trained classifier to 
 
 * Following table shows some of the combinations of `ystart`, `ystop`, and `scale` that were used during detection. `scale` is for the size of the window that we are looking for in the images. `ystart` and `ystop` are limits of the images that we are looking for pattern.
 
+<p align="center"><img src="examples/limits.png" width = "350" alt="Combined Image" /> </p>
+
 *
 
 </br>
