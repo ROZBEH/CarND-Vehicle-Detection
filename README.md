@@ -53,9 +53,9 @@ II. Implementing a sliding-window technique and using the trained classifier to 
 
 * Following figure show some the detection and corresponding bounding boxes. Heatmap of each of them are shown next to them.
 
-<p align="center"><img src="examples/heatbox1.png" width = "350" alt="Combined Image" /> </p>
+<p align="center"><img src="examples/heatbox1.png" width = "700" alt="Combined Image" /> </p>
 
-<p align="center"><img src="examples/heatbox2.png" width = "350" alt="Combined Image" /> </p>
+<p align="center"><img src="examples/heatbox2.png" width = "700" alt="Combined Image" /> </p>
 
 
 </br>
