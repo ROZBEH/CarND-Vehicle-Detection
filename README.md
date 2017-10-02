@@ -76,7 +76,19 @@ III. Running our pipeline on a video stream.
 
 <br>
 
-IV. 
+IV. Observations, conclusion, and further improvements
+
+* This is NOT the best that I could from this project :-)
+
+* Tweaking more with the bounding boxes and make it more robust to false positives.
+
+* Increase speed by skipping some of the frames.
+
+* Increase speed by decreasing number of features. Try by just using HOG feature. 
+
+* Increase robustnedd to false positive by using preprocessing steps that we used during Avanced Lane Line project.
+
+* Finally, using convolutional neural networks for the task of this project.
 
 </br>
 
