@@ -26,7 +26,7 @@ I. Perform a Histogram of Oriented Gradients (HOG) feature extraction on a label
 * Data set was divided into two sets for training(80%) and testing(20%).
 
 * Some of the parameters that were used during training are listed in the following table.
-
+<p align="center"><img src="examples/Table_Params.png" width = "350" alt="Combined Image" /> </p>
 
 </br>
 
