@@ -31,6 +31,8 @@ I. Perform a Histogram of Oriented Gradients (HOG) feature extraction on a label
 
 * Size of feature vector was 5772
 
+* Scikitlearn SVM classifier was used.
+
 * System was tested with different paramter combination that the current combination revealed the best testing accuracy. The following table shows the test accuracy for two cases.
 
 <p align="center"><img src="examples/test_accu.png" width = "350" alt="Combined Image" /> </p>
