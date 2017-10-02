@@ -11,14 +11,22 @@ In this project, our goal is to write a software pipeline to detect vehicles in 
 
 Pipeline
 ---
-
 *The pipeline along with the corresponding python codes will be described here.*
 
 *Note: I have not included the training data in my submission, because my github repository has limited space.*
 
 <br>
 
-I. 
+I. Perform a Histogram of Oriented Gradients (HOG) feature extraction on a labeled training set of images and train a classifier Linear SVM classifier.
+
+* We can also applied a color transform and append binned color features, as well as histograms of color, to the HOG feature vector.
+
+* Features has been normalized and selection of training and testing set was random.
+
+* Data set was divided into two sets for training(80%) and testing(20%).
+
+* Some of the parameters that were used during training are listed in the following table.
+
 
 </br>
 
