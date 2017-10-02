@@ -28,6 +28,11 @@ I. Perform a Histogram of Oriented Gradients (HOG) feature extraction on a label
 * Some of the parameters that were used during training are listed in the following table.
 <p align="center"><img src="examples/Table_Params.png" width = "350" alt="Combined Image" /> </p>
 
+* Size of feature vector was 5772
+
+* System was tested with different paramter combination that the current combination revealed the best testing accuracy. The following table shows the test accuracy for two cases.
+
+
 </br>
 
 <br>
